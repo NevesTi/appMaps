@@ -1,13 +1,15 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet } from 'react-native';
 import HomePage from './src/pages/home-page';
 
 export default function App() {
   return (
+  
     <HomePage/>
+    
+    
+  
   );
 }
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -16,3 +18,5 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+
+
